@@ -31,7 +31,7 @@ export function apply(ctx: Context) {
     errorInfo: 'Error: {0}'
   })
 
-  ctx.command('ping <host:>', 'Ping the specified host', { authority: 2 })
+  ctx.command('ping <host:>', 'Ping the specified host')
     .option('count', `-c <count> Number of pings`)
     .option('wait', '-w <timeout> Timeout (in milliseconds) to wait for each reply')
     .option('6', '-6 Use IPv6 protocol')
