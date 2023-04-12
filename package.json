@@ -1,0 +1,33 @@
+{
+  "name": "@eosrce/koishi-plugin-ping",
+  "description": "Simple ping plugin implementation that relies on node-ping",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "author": "E#Index <examp1ea@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eosrce/koishi-plugin-ping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eosrce/koishi-plugin-ping/issues"
+  },
+  "scripts": {},
+  "keywords": [
+    "netword",
+    "ip"
+  ],
+  "koishi": {
+    "description": {
+      "en": "Simple ping plugin implementation that relies on node-ping",
+      "zh": "node-ping 的简单 ping 插件实现"
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.12.3"
+  }
+}

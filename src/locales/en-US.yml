@@ -1,0 +1,21 @@
+commands:
+  ping:
+    description: Ping the specified host
+    options:
+      count: "Number of pings"
+      wait: "Timeout (in milliseconds) to wait for each reply"
+      6: "Use IPv6 protocol"
+      l: "Specify packet size (in bytes)"
+      i: "Set TTL (time to live)"
+    result:
+      pingStatistics: "Ping statistics"
+      pingHost: "Target host"
+      pingRetries: "Number of sends"
+      pingTimeout: "Timeout time"
+      pingVersion: "Protocol version"
+      pingPacketSize: "packet size"
+      pingAvg: "average delay"
+      pingMin: "minimum delay"
+      pingMax: "maximum latency"
+      pingStddev: "standard deviation"
+      pingPacketLoss: "packet loss rate"
